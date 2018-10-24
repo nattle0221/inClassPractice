@@ -1,0 +1,16 @@
+---
+title: "2018-10-24"
+output: html_notebook
+---
+
+```{r}
+
+StuDF[1,2]
+StuDF[,2]
+StuDF[1,]
+StuDF[c(1,4),]
+StuDF[c(1,4),c(2,3)]
+
+
+```
+
