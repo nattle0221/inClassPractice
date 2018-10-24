@@ -1,0 +1,27 @@
+---
+title: "exrcise 1"
+date: "2018-10-23"
+output: html_document
+params:
+  studentID: "410473050"
+  studentName: "陳佳怡"
+---
+```{r}
+
+library(readr)
+bankdata <- read_csv("https://raw.githubusercontent.com/tpemartin/github-data/master/bankdata.csv")
+
+as.factor(student$出生地) -> student$出生地
+
+factor(student$身高級距,
+       levels=c("(0,150]","(150,155]", "(155,160]", "(160,165]" ,"(165,170]", "(170,175]" ,"(175,180]" ,"(180,185]", "(185,200]"),
+       ordered=TRUE) -> student$身高級距
+
+lubridate::with_tz()
+
+grep("Taipei",OlsonNames(),value=TRUE)
+
+```
+
+```
+
